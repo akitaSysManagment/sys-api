@@ -1,0 +1,12 @@
+server.port=<port>
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.datasource.platform=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/<database>?createDatabaseIfNotExist=true&useSSL=false
+spring.jpa.properties.hibernate.dialect =org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.username=<username>
+spring.datasource.password=<password>
+server.error.include-message=always
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jackson.serialization.FAIL_ON_EMPTY_BEANS=false
